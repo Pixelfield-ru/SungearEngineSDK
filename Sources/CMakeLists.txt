@@ -5,7 +5,7 @@ add_subdirectory(SGCore)
 add_subdirectory(SGConsole)
 
 # installing targets
-install(TARGETS SGUtils SGCore SGConsoleAPI SGConsoleApp)
+install(TARGETS SGUtils SGCore SGConsoleAPI)
 
 #installing headers
 file(GLOB_RECURSE SGCONSOLEAPI_HEADERS SGConsole/API/*.h)
