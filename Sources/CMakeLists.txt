@@ -4,4 +4,4 @@ add_subdirectory(SGUtils)
 add_subdirectory(SGCore)
 add_subdirectory(SGConsole)
 
-install(TARGETS SGUtils SGCore SGConsole)
+install(TARGETS SGUtils SGCore SGConsoleAPI SGConsoleApp)
