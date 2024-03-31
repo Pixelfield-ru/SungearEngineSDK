@@ -79,8 +79,6 @@ if(${SG_BUILD_TESTS})
     add_subdirectory(Tests)
 endif()
 
-install(TARGETS ${PROJECT_NAME})
-
 message("Bullet Include Dir: " ${BULLET_INCLUDE_DIR})
 message("Bullet Libraries: " ${BULLET_COLLISION_LIBRARY} ", " ${BULLET_DYNAMICS_LIBRARY} ", " ${BULLET_MATH_LIBRARY})
 
