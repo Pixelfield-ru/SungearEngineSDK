@@ -82,6 +82,8 @@ endif()
 message("Bullet Include Dir: " ${BULLET_INCLUDE_DIR})
 message("Bullet Libraries: " ${BULLET_COLLISION_LIBRARY} ", " ${BULLET_DYNAMICS_LIBRARY} ", " ${BULLET_MATH_LIBRARY})
 
+install(FILES "FindSungearEngineSDK.cmake" DESTINATION "share/SungearEngineSDK")
+
 # move all necessary dlls to target exes ------------------
 
 if(EXISTS ${CMAKE_BINARY_DIR}/Externals/Assimp/bin/libassimp-5d.dll)
