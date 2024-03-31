@@ -4,7 +4,7 @@ vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO Pixelfield-ru/SungearEngineSDK
         REF "${VERSION}"
-        SHA512 5afb2ee8689a57345374728c93f28d0a7c761d8be6b6d805cf5f7efde4c1e0f5c355890820ce6155000f24aa7486efd9dbd2143ec823e0c9832525a4622c07f5
+        SHA512 f12148eeda9cd529a6bf20cba44b99de28b1dfc48af625e81bd22bb1f81e2de4605d0cf4d7dd1be35fba8b85e9337de39bf8f6ad97fd1a0caaad37d8255447b4
         HEAD_REF main
 )
 

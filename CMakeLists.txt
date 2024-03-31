@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 
-project(SungearEngine)
+project(SungearEngineSDK)
 
 message("VCPKG_ROOT: " $ENV{VCPKG_ROOT})
 
